@@ -1,0 +1,177 @@
+body {
+	font-family : sans-serif;
+	background-color : #d7fc97;
+	color : blue;
+}
+ul li{
+	display : inline;
+	text-align : right;
+	border : 3px solid green;
+	font-size : 12px;
+	background-color : #69ff73;
+}
+h2 {
+	border : 3px solid #62ff00;
+	border-radius : 10px;
+	background-color : #99ffbb;
+}
+header {
+	border : 3px solid green;
+	background-color : #2ffa3d;
+	width : 100%;
+	height : 50px;
+	}
+article {
+	border : 3px solid #62ff00;
+	border-radius : 10px;
+	background-color : #befc97;
+	text-align : center;
+	width : 50%;
+	margin : 0 auto;
+	padding : 5px;
+	margin-bottom : 50px;
+	margin-top : 50px;
+}
+ol li {
+	text-align : left;
+}
+footer {
+	border : 3px solid  green;
+	background-color : green;
+	color : red;
+}
+.kiri {
+float : left;
+overflow : auto;
+}
+.kanan {
+float : kanan;
+overflow : auto;
+}
+.flek {
+display : flex;
+}
+.blok {
+flex-grow : 1;
+}
+.stick {
+position : sticky;
+   position: sticky;
+   top: 0;
+}
+.ratakanan {
+	text-align : right;
+	padding : 5px;
+}
+.ratakiri {
+	text-align : left;
+}
+.kotak{
+	border : 3px solid;
+}
+.tengah {
+	margin : 0 auto;
+}
+p {
+	font-size : 1,5vw;
+}
+button {
+	color : #BF00FF;
+	background-color : #8DDEAB;
+}
+@media screen and (max-width: 1000px) {
+ul li{
+	display : inline;
+	text-align : right;
+	border: 2px solid green;
+	font-size : 3vw;
+	background-color : #69ff73;
+}
+h2 {
+	border : 3px solid #62ff00;
+	border-radius : 10px;
+	background-color : #99ffbb;
+	font-size : 6vw;
+}
+h4 {
+	font-size : 5vw;
+}
+header {
+	border : 3px solid green;
+	background-color : #2ffa3d;
+	width : 100%;
+	height : 60px;
+	}
+article {
+	border : 3px solid #62ff00;
+	border-radius : 10px;
+	background-color : #befc97;
+	text-align : center;
+	width : 80%;
+	margin : 0 auto;
+	padding : 5px;
+	margin-bottom : 50px;
+	margin-top : 50px;
+}
+ol li {
+	text-align : left;
+	font-size : 4vw;
+}
+footer {
+	border : 5px solid  green;
+	background-color : green;
+	font-size : 5vw;
+	width : 100%;
+}
+.kiri {
+float : left;
+overflow : auto;
+}
+.kanan {
+float : kanan;
+overflow : auto;
+}
+.flek {
+display : flex;
+}
+.blok {
+flex-grow : 1;
+}
+.stick {
+position : sticky;
+   position: sticky;
+   top: 0;
+}
+.ratakanan {
+	text-align : right;
+	padding : 5px;
+}
+.ratakiri {
+	text-align : left;
+}
+.kotak{
+	border : 3px solid;
+}
+.tengah {
+	margin : 0 auto;
+}
+table {
+	width : 40%;
+	font-size : 3vw;
+}
+button {
+	width : 20%;
+	font-size : 2vw;
+}
+p {
+	font-size : 4vw;
+}
+figcaption {
+	font-size : 4vw;
+}
+button {
+	color : #BF00FF;
+	background-color : #8DDEAB;
+	border-radius : 10px;
+}
+}
